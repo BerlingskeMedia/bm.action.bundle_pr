@@ -1,0 +1,6 @@
+name: 'bm.action.bundle_pr'
+description: 'Github action for bundle pull request'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
