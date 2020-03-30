@@ -41,6 +41,3 @@ RUN groupmod -g 1000 www-data
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
-
-#CMD ["composer", "install"]
-#CMD ["php-fpm7.2", "--nodaemonize", "--fpm-config", "/etc/php/7.2/fpm/php-fpm.conf"]
