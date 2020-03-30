@@ -34,7 +34,7 @@ RUN npm i -g npm@6.4.1
 RUN npm install -g typescript
 RUN composer self-update
 
-RUN echo '//registry.npmjs.org/:_authToken=$1' > /etc/npmrc
+RUN echo '//registry.npmjs.org/:_authToken=${1}' > /etc/npmrc
 
 RUN usermod -u 1000 www-data
 RUN groupmod -g 1000 www-data
