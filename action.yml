@@ -9,5 +9,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   env:
-    NPM_TOKEN: "AAAAAAAAAAAAAAA"
+    NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
