@@ -1,10 +1,10 @@
 name: 'bm.action.bundle_pr'
 description: 'Github action for bundle pull request'
-inputs:
-  NPM_TOKEN:
-    description: 'NPM TOKEN needed for npm'
-    required: true
-    default: 'XXXXXXXXXXXXXXXXX'
+#inputs:
+#  NPM_TOKEN:
+#    description: 'NPM TOKEN needed for npm'
+#    required: true
+#    default: 'XXXXXXXXXXXXXXXXX'
 runs:
   using: 'docker'
   image: 'Dockerfile'
